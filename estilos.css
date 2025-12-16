@@ -1,0 +1,90 @@
+body {
+    background: hsla(0, 94%, 48%, 0.342);
+
+    background: linear-gradient(100deg, hsla(56, 93%, 60%, 0.342), hsla(0, 94%, 48%, 0.342) );
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+.productos-card {
+    background-color: #dbfeff;
+    border-radius: 40px;
+    box-shadow: 0 9px 20px rgba(0, 0, 0, 0.08);
+    padding: 25px;
+    width: 300px;
+    box-sizing: border-box;
+    transition-property: transform, box-shadow;
+    transition-duration: 0.15s;
+    transition-timing-function: ease-in-out;
+}
+
+.productos-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+
+.productos-boton {
+    background-color: #3498db;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    width: 100%;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: background-color 0.25s ease, transform 0.25s ease;
+}
+
+.productos-boton:hover {
+    background-color: #2980b9;
+    transform: scale(1.03);
+}
+.productos-nombre {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.productos-categoria {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    background-color: #ecf0f1;
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.productos-precio {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #27ae60; 
+    margin-bottom: 15px;
+}
+
+.productos-descripcion {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+    min-height: 60px;
+}
+
